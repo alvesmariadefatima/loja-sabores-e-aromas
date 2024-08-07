@@ -1,0 +1,11 @@
+@import "~slick-carousel/slick/slick.css";
+@import "~slick-carousel/slick/slick-theme.css";
+
+
+/* Ajuste o CSS global ou do contêiner principal */
+html, body, #root {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+

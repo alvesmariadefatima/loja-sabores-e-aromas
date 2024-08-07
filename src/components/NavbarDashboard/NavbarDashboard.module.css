@@ -1,0 +1,42 @@
+.navbar {
+    background-color: #A52A2A;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1000;
+    margin: 0;
+    padding: 0;
+}
+
+.linkNavbar {
+    font-family: "Righteous", sans-serif;
+    padding: 10px;
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 20px;
+    margin: 0 5px; /* Ajuste o espaçamento entre os links conforme necessário */
+}
+
+.containerLogotipo {
+    display: flex;
+    align-items: center;
+}
+
+.imgLogotipo {
+    width: 60px;
+    height: auto;
+}
+
+.containerNavbar {
+    display: flex;
+    align-items: center;
+    padding: 10px; /* Ajuste o padding conforme necessário */
+}
+
+.linkContainer {
+    display: flex;
+    align-items: center;
+    margin-left: auto; /* Empurra os links para a direita */
+}

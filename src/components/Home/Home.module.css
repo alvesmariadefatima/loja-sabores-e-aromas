@@ -1,0 +1,58 @@
+.content {
+    padding-top: 60px;
+    margin-top: 20px;
+}
+
+.sloganLoja {
+    font-family: "Righteous", sans-serif;
+    color: #A52A2A;
+    font-weight: 400;
+    text-align: center;
+}
+
+.tituloSecaoNossaHistoria {
+    font-family: "Righteous", sans-serif;
+    display: flex; /* Usa Flexbox para alinhar o ícone e o título na mesma linha */
+    align-items: center; /* Alinha verticalmente o ícone e o texto */
+    font-size: 24px; /* Ajuste o tamanho da fonte conforme necessário */
+    color: #ffffff; /* Altere a cor do texto conforme necessário */
+    font-weight: 400;
+}
+
+.tituloSecaoNossaHistoria img {
+    width: 40px; /* Define o tamanho do ícone */
+    height: auto; /* Mantém a proporção da imagem */
+    margin-right: 10px; /* Espaçamento entre o ícone e o texto */
+}
+
+.secaoHistoria {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* Define duas colunas de igual largura */
+    gap: 20px; /* Espaço entre os parágrafos */
+    margin: 20px 0; /* Espaço acima e abaixo da seção */
+}
+
+.secaoHistoria img {
+    width: 25px;
+    height: auto;
+}   
+
+.secaoHistoria p {
+    font-family: "Righteous", sans-serif;
+    font-weight: 200;
+    margin: 0; /* Remove margens padrão dos parágrafos */
+    padding: 10px; /* Adiciona um pouco de padding para espaçamento interno */
+    border-radius: 8px; /* Adiciona bordas arredondadas */
+}
+
+.secaoProdutos p {
+    font-family: "Righteous", sans-serif;
+    color: #A52A2A;
+    text-align: center;
+}
+
+.secaoContato p {
+    font-family: "Righteous", sans-serif;
+    font-weight: 200;
+    text-align: center;
+}
